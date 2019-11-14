@@ -1,0 +1,36 @@
+#!/usr/bin/env node
+
+const fs = require("fs");
+const execSync = require('child_process').execSync;
+const tx = require("@thi.ng/transducers");
+const baseDir = "./umbrella/packages/";
+const repoBase = "https://github.com/thi-ng/umbrella/tree/master/packages/";
+
+if (fs.existsSync(baseDir)) {
+    execSync("cd umbrella && git pull");
+} else {
+    execSync("git clone --quiet https://github.com/thi-ng/umbrella");
+}
+
+const xform = tx.comp(
+    tx.map((f) => baseDir + f),
+    tx.filter((f) => f.indexOf(".DS_Store") < 0 && fs.statSync(f).isDirectory),
+    tx.map((f) => {
+        try {
+            return fs.readFileSync(f + "/package.json");
+        } catch (_) {}
+    }),
+    tx.filter(f => f !== undefined),
+    tx.map((p) => {
+        p = JSON.parse(p.toString());
+        const pNameSplit = p.name.split("/");
+        return [p.name, {
+            dependencies: p.dependencies ? Object.keys(p.dependencies) : [],
+            repo: repoBase + (pNameSplit.length >= 2 ? pNameSplit[1] : ""),
+            version: p.version
+        }];
+    })
+);
+
+const packages = tx.transduce(xform, tx.assocObj(), fs.readdirSync(baseDir));
+fs.writeFileSync("packages.json", JSON.stringify(packages, null, 2), "utf8");

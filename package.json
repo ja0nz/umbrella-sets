@@ -1,0 +1,9 @@
+{
+  "name": "umbrella-sets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@thi.ng/transducers": "^6.0.0"
+  }
+}

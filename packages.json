@@ -1,0 +1,1058 @@
+{
+  "@thi.ng/adjacency": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/binary",
+      "@thi.ng/bitfield",
+      "@thi.ng/checks",
+      "@thi.ng/dcons",
+      "@thi.ng/sparse"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/adjacency",
+    "version": "0.1.25"
+  },
+  "@thi.ng/api": {
+    "dependencies": [
+      "@thi.ng/errors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/api",
+    "version": "6.5.0"
+  },
+  "@thi.ng/arrays": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/compare",
+      "@thi.ng/equiv",
+      "@thi.ng/errors",
+      "@thi.ng/random"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/arrays",
+    "version": "0.3.0"
+  },
+  "@thi.ng/associative": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/binary",
+      "@thi.ng/checks",
+      "@thi.ng/compare",
+      "@thi.ng/dcons",
+      "@thi.ng/equiv",
+      "@thi.ng/errors",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/associative",
+    "version": "3.1.0"
+  },
+  "@thi.ng/atom": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/equiv",
+      "@thi.ng/errors",
+      "@thi.ng/paths"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/atom",
+    "version": "3.1.1"
+  },
+  "@thi.ng/bench": {
+    "dependencies": [],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/bench",
+    "version": "1.0.10"
+  },
+  "@thi.ng/bencode": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/arrays",
+      "@thi.ng/checks",
+      "@thi.ng/defmulti",
+      "@thi.ng/errors",
+      "@thi.ng/transducers",
+      "@thi.ng/transducers-binary"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/bencode",
+    "version": "0.3.6"
+  },
+  "@thi.ng/binary": {
+    "dependencies": [],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/binary",
+    "version": "1.1.1"
+  },
+  "@thi.ng/bitfield": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/binary",
+      "@thi.ng/strings"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/bitfield",
+    "version": "0.2.1"
+  },
+  "@thi.ng/bitstream": {
+    "dependencies": [
+      "@thi.ng/errors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/bitstream",
+    "version": "1.1.4"
+  },
+  "@thi.ng/cache": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/dcons",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/cache",
+    "version": "1.0.26"
+  },
+  "@thi.ng/checks": {
+    "dependencies": [],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/checks",
+    "version": "2.4.1"
+  },
+  "@thi.ng/color": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/compose",
+      "@thi.ng/defmulti",
+      "@thi.ng/errors",
+      "@thi.ng/math",
+      "@thi.ng/strings",
+      "@thi.ng/transducers",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/color",
+    "version": "1.1.2"
+  },
+  "@thi.ng/compare": {
+    "dependencies": [],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/compare",
+    "version": "1.0.10"
+  },
+  "@thi.ng/compose": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/errors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/compose",
+    "version": "1.3.5"
+  },
+  "@thi.ng/csp": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/arrays",
+      "@thi.ng/checks",
+      "@thi.ng/dcons",
+      "@thi.ng/errors",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/csp",
+    "version": "1.1.6"
+  },
+  "@thi.ng/dcons": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/compare",
+      "@thi.ng/equiv",
+      "@thi.ng/errors",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/dcons",
+    "version": "2.1.6"
+  },
+  "@thi.ng/defmulti": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/errors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/defmulti",
+    "version": "1.2.0"
+  },
+  "@thi.ng/dgraph": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/associative",
+      "@thi.ng/equiv",
+      "@thi.ng/errors",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/dgraph",
+    "version": "1.1.16"
+  },
+  "@thi.ng/diff": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/equiv"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/diff",
+    "version": "3.2.5"
+  },
+  "@thi.ng/dlogic": {
+    "dependencies": [],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/dlogic",
+    "version": "1.0.10"
+  },
+  "@thi.ng/dot": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/dot",
+    "version": "1.1.6"
+  },
+  "@thi.ng/dsp": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/math"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/dsp",
+    "version": "1.0.17"
+  },
+  "@thi.ng/ecs": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/associative",
+      "@thi.ng/checks",
+      "@thi.ng/dcons",
+      "@thi.ng/soa",
+      "@thi.ng/transducers",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/ecs",
+    "version": "0.1.0"
+  },
+  "@thi.ng/equiv": {
+    "dependencies": [],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/equiv",
+    "version": "1.0.10"
+  },
+  "@thi.ng/errors": {
+    "dependencies": [],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/errors",
+    "version": "1.2.1"
+  },
+  "@thi.ng/fsm": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/arrays",
+      "@thi.ng/equiv",
+      "@thi.ng/errors",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/fsm",
+    "version": "2.3.0"
+  },
+  "@thi.ng/geom": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/arrays",
+      "@thi.ng/checks",
+      "@thi.ng/compose",
+      "@thi.ng/defmulti",
+      "@thi.ng/equiv",
+      "@thi.ng/errors",
+      "@thi.ng/geom-api",
+      "@thi.ng/geom-arc",
+      "@thi.ng/geom-clip",
+      "@thi.ng/geom-closest-point",
+      "@thi.ng/geom-hull",
+      "@thi.ng/geom-isec",
+      "@thi.ng/geom-poly-utils",
+      "@thi.ng/geom-resample",
+      "@thi.ng/geom-splines",
+      "@thi.ng/geom-subdiv-curve",
+      "@thi.ng/geom-tessellate",
+      "@thi.ng/hiccup",
+      "@thi.ng/hiccup-svg",
+      "@thi.ng/math",
+      "@thi.ng/matrices",
+      "@thi.ng/random",
+      "@thi.ng/transducers",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/geom",
+    "version": "1.7.7"
+  },
+  "@thi.ng/geom-accel": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/arrays",
+      "@thi.ng/geom-api",
+      "@thi.ng/heaps",
+      "@thi.ng/math",
+      "@thi.ng/transducers",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/geom-accel",
+    "version": "1.2.9"
+  },
+  "@thi.ng/geom-api": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/geom-api",
+    "version": "0.3.7"
+  },
+  "@thi.ng/geom-arc": {
+    "dependencies": [
+      "@thi.ng/checks",
+      "@thi.ng/geom-api",
+      "@thi.ng/geom-resample",
+      "@thi.ng/math",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/geom-arc",
+    "version": "0.2.9"
+  },
+  "@thi.ng/geom-clip": {
+    "dependencies": [
+      "@thi.ng/geom-isec",
+      "@thi.ng/geom-poly-utils",
+      "@thi.ng/math",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/geom-clip",
+    "version": "0.1.9"
+  },
+  "@thi.ng/geom-closest-point": {
+    "dependencies": [
+      "@thi.ng/math",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/geom-closest-point",
+    "version": "0.3.9"
+  },
+  "@thi.ng/geom-hull": {
+    "dependencies": [
+      "@thi.ng/math",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/geom-hull",
+    "version": "0.0.29"
+  },
+  "@thi.ng/geom-isec": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/geom-api",
+      "@thi.ng/geom-closest-point",
+      "@thi.ng/math",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/geom-isec",
+    "version": "0.3.9"
+  },
+  "@thi.ng/geom-isoline": {
+    "dependencies": [
+      "@thi.ng/transducers",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/geom-isoline",
+    "version": "0.1.27"
+  },
+  "@thi.ng/geom-poly-utils": {
+    "dependencies": [
+      "@thi.ng/errors",
+      "@thi.ng/geom-api",
+      "@thi.ng/math",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/geom-poly-utils",
+    "version": "0.1.27"
+  },
+  "@thi.ng/geom-resample": {
+    "dependencies": [
+      "@thi.ng/checks",
+      "@thi.ng/geom-api",
+      "@thi.ng/geom-closest-point",
+      "@thi.ng/math",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/geom-resample",
+    "version": "0.2.9"
+  },
+  "@thi.ng/geom-splines": {
+    "dependencies": [
+      "@thi.ng/checks",
+      "@thi.ng/geom-api",
+      "@thi.ng/geom-arc",
+      "@thi.ng/geom-resample",
+      "@thi.ng/math",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/geom-splines",
+    "version": "0.4.2"
+  },
+  "@thi.ng/geom-subdiv-curve": {
+    "dependencies": [
+      "@thi.ng/geom-api",
+      "@thi.ng/transducers",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/geom-subdiv-curve",
+    "version": "0.1.26"
+  },
+  "@thi.ng/geom-tessellate": {
+    "dependencies": [
+      "@thi.ng/checks",
+      "@thi.ng/geom-api",
+      "@thi.ng/geom-isec",
+      "@thi.ng/geom-poly-utils",
+      "@thi.ng/transducers",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/geom-tessellate",
+    "version": "0.2.9"
+  },
+  "@thi.ng/geom-voronoi": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/geom-clip",
+      "@thi.ng/geom-isec",
+      "@thi.ng/geom-poly-utils",
+      "@thi.ng/math",
+      "@thi.ng/quad-edge",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/geom-voronoi",
+    "version": "0.1.27"
+  },
+  "@thi.ng/grid-iterators": {
+    "dependencies": [
+      "@thi.ng/arrays",
+      "@thi.ng/binary",
+      "@thi.ng/morton",
+      "@thi.ng/random",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/grid-iterators",
+    "version": "0.2.0"
+  },
+  "@thi.ng/hdom": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/diff",
+      "@thi.ng/equiv",
+      "@thi.ng/errors",
+      "@thi.ng/hiccup"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/hdom",
+    "version": "8.0.7"
+  },
+  "@thi.ng/hdom-canvas": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/color",
+      "@thi.ng/diff",
+      "@thi.ng/hdom",
+      "@thi.ng/math",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/hdom-canvas",
+    "version": "2.4.0"
+  },
+  "@thi.ng/hdom-components": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/math",
+      "@thi.ng/transducers",
+      "@thi.ng/transducers-stats"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/hdom-components",
+    "version": "3.1.6"
+  },
+  "@thi.ng/hdom-mock": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/hdom"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/hdom-mock",
+    "version": "1.1.7"
+  },
+  "@thi.ng/heaps": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/compare"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/heaps",
+    "version": "1.1.5"
+  },
+  "@thi.ng/hiccup": {
+    "dependencies": [
+      "@thi.ng/checks",
+      "@thi.ng/errors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/hiccup",
+    "version": "3.2.6"
+  },
+  "@thi.ng/hiccup-carbon-icons": {
+    "dependencies": [],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/hiccup-carbon-icons",
+    "version": "1.0.21"
+  },
+  "@thi.ng/hiccup-css": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/errors",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/hiccup-css",
+    "version": "1.1.6"
+  },
+  "@thi.ng/hiccup-markdown": {
+    "dependencies": [
+      "@thi.ng/arrays",
+      "@thi.ng/checks",
+      "@thi.ng/defmulti",
+      "@thi.ng/errors",
+      "@thi.ng/fsm",
+      "@thi.ng/hiccup",
+      "@thi.ng/strings",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/hiccup-markdown",
+    "version": "1.1.6"
+  },
+  "@thi.ng/hiccup-svg": {
+    "dependencies": [
+      "@thi.ng/checks",
+      "@thi.ng/color",
+      "@thi.ng/hiccup"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/hiccup-svg",
+    "version": "3.3.2"
+  },
+  "@thi.ng/iges": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/defmulti",
+      "@thi.ng/strings",
+      "@thi.ng/transducers",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/iges",
+    "version": "1.1.11"
+  },
+  "@thi.ng/imgui": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/geom",
+      "@thi.ng/geom-api",
+      "@thi.ng/geom-isec",
+      "@thi.ng/geom-tessellate",
+      "@thi.ng/math",
+      "@thi.ng/transducers",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/imgui",
+    "version": "0.1.4"
+  },
+  "@thi.ng/interceptors": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/atom",
+      "@thi.ng/checks",
+      "@thi.ng/errors",
+      "@thi.ng/paths"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/interceptors",
+    "version": "2.2.2"
+  },
+  "@thi.ng/intervals": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/errors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/intervals",
+    "version": "1.0.15"
+  },
+  "@thi.ng/iterators": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/dcons",
+      "@thi.ng/errors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/iterators",
+    "version": "5.1.6"
+  },
+  "@thi.ng/leb128": {
+    "dependencies": [
+      "@thi.ng/checks",
+      "@thi.ng/errors",
+      "@thi.ng/transducers-binary"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/leb128",
+    "version": "1.0.0"
+  },
+  "@thi.ng/lsys": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/compose",
+      "@thi.ng/errors",
+      "@thi.ng/math",
+      "@thi.ng/random",
+      "@thi.ng/transducers",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/lsys",
+    "version": "0.2.24"
+  },
+  "@thi.ng/malloc": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/binary",
+      "@thi.ng/checks",
+      "@thi.ng/errors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/malloc",
+    "version": "4.1.0"
+  },
+  "@thi.ng/math": {
+    "dependencies": [],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/math",
+    "version": "1.5.0"
+  },
+  "@thi.ng/matrices": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/math",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/matrices",
+    "version": "0.5.9"
+  },
+  "@thi.ng/memoize": {
+    "dependencies": [
+      "@thi.ng/api"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/memoize",
+    "version": "1.1.5"
+  },
+  "@thi.ng/morton": {
+    "dependencies": [
+      "@thi.ng/binary",
+      "@thi.ng/errors",
+      "@thi.ng/math"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/morton",
+    "version": "1.1.4"
+  },
+  "@thi.ng/paths": {
+    "dependencies": [
+      "@thi.ng/checks",
+      "@thi.ng/errors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/paths",
+    "version": "2.1.6"
+  },
+  "@thi.ng/pixel": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/math",
+      "@thi.ng/porter-duff"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/pixel",
+    "version": "0.1.5"
+  },
+  "@thi.ng/pointfree": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/compose",
+      "@thi.ng/equiv",
+      "@thi.ng/errors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/pointfree",
+    "version": "1.2.2"
+  },
+  "@thi.ng/pointfree-lang": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/errors",
+      "@thi.ng/pointfree"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/pointfree-lang",
+    "version": "1.1.6"
+  },
+  "@thi.ng/poisson": {
+    "dependencies": [
+      "@thi.ng/checks",
+      "@thi.ng/geom-api",
+      "@thi.ng/random",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/poisson",
+    "version": "0.2.26"
+  },
+  "@thi.ng/porter-duff": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/math"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/porter-duff",
+    "version": "0.1.4"
+  },
+  "@thi.ng/quad-edge": {
+    "dependencies": [],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/quad-edge",
+    "version": "0.2.3"
+  },
+  "@thi.ng/random": {
+    "dependencies": [
+      "@thi.ng/api"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/random",
+    "version": "1.1.13"
+  },
+  "@thi.ng/range-coder": {
+    "dependencies": [
+      "@thi.ng/bitstream"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/range-coder",
+    "version": "1.0.26"
+  },
+  "@thi.ng/resolve-map": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/errors",
+      "@thi.ng/paths"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/resolve-map",
+    "version": "4.1.8"
+  },
+  "@thi.ng/rle-pack": {
+    "dependencies": [
+      "@thi.ng/bitstream",
+      "@thi.ng/errors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/rle-pack",
+    "version": "2.1.4"
+  },
+  "@thi.ng/router": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/equiv",
+      "@thi.ng/errors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/router",
+    "version": "2.0.6"
+  },
+  "@thi.ng/rstream": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/associative",
+      "@thi.ng/atom",
+      "@thi.ng/checks",
+      "@thi.ng/errors",
+      "@thi.ng/paths",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/rstream",
+    "version": "2.5.6"
+  },
+  "@thi.ng/rstream-csp": {
+    "dependencies": [
+      "@thi.ng/csp",
+      "@thi.ng/rstream"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/rstream-csp",
+    "version": "1.0.33"
+  },
+  "@thi.ng/rstream-dot": {
+    "dependencies": [
+      "@thi.ng/rstream"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/rstream-dot",
+    "version": "1.1.6"
+  },
+  "@thi.ng/rstream-gestures": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/rstream",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/rstream-gestures",
+    "version": "1.2.6"
+  },
+  "@thi.ng/rstream-graph": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/errors",
+      "@thi.ng/paths",
+      "@thi.ng/resolve-map",
+      "@thi.ng/rstream",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/rstream-graph",
+    "version": "3.1.8"
+  },
+  "@thi.ng/rstream-log": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/errors",
+      "@thi.ng/rstream",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/rstream-log",
+    "version": "3.1.6"
+  },
+  "@thi.ng/rstream-log-file": {
+    "dependencies": [
+      "@thi.ng/rstream"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/rstream-log-file",
+    "version": "0.1.21"
+  },
+  "@thi.ng/rstream-query": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/associative",
+      "@thi.ng/checks",
+      "@thi.ng/equiv",
+      "@thi.ng/errors",
+      "@thi.ng/math",
+      "@thi.ng/rstream",
+      "@thi.ng/rstream-dot",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/rstream-query",
+    "version": "1.1.6"
+  },
+  "@thi.ng/sax": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/transducers",
+      "@thi.ng/transducers-fsm"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/sax",
+    "version": "1.1.6"
+  },
+  "@thi.ng/sexpr": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/defmulti"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/sexpr",
+    "version": "0.2.1"
+  },
+  "@thi.ng/shader-ast": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/defmulti",
+      "@thi.ng/dgraph",
+      "@thi.ng/errors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/shader-ast",
+    "version": "0.3.2"
+  },
+  "@thi.ng/shader-ast-glsl": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/errors",
+      "@thi.ng/shader-ast"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/shader-ast-glsl",
+    "version": "0.1.8"
+  },
+  "@thi.ng/shader-ast-js": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/checks",
+      "@thi.ng/errors",
+      "@thi.ng/math",
+      "@thi.ng/matrices",
+      "@thi.ng/pixel",
+      "@thi.ng/shader-ast",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/shader-ast-js",
+    "version": "0.4.1"
+  },
+  "@thi.ng/shader-ast-stdlib": {
+    "dependencies": [
+      "@thi.ng/shader-ast"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/shader-ast-stdlib",
+    "version": "0.3.1"
+  },
+  "@thi.ng/simd": {
+    "dependencies": [
+      "@thi.ng/checks",
+      "@thi.ng/transducers",
+      "@thi.ng/transducers-binary"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/simd",
+    "version": "0.1.0"
+  },
+  "@thi.ng/soa": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/binary",
+      "@thi.ng/transducers-binary",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/soa",
+    "version": "0.1.0"
+  },
+  "@thi.ng/sparse": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/sparse",
+    "version": "0.1.22"
+  },
+  "@thi.ng/strings": {
+    "dependencies": [
+      "@thi.ng/errors",
+      "@thi.ng/memoize"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/strings",
+    "version": "1.3.1"
+  },
+  "@thi.ng/transducers": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/arrays",
+      "@thi.ng/checks",
+      "@thi.ng/compare",
+      "@thi.ng/compose",
+      "@thi.ng/equiv",
+      "@thi.ng/errors",
+      "@thi.ng/math",
+      "@thi.ng/random",
+      "@thi.ng/strings"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/transducers",
+    "version": "6.0.0"
+  },
+  "@thi.ng/transducers-binary": {
+    "dependencies": [
+      "@thi.ng/compose",
+      "@thi.ng/random",
+      "@thi.ng/strings",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/transducers-binary",
+    "version": "0.4.6"
+  },
+  "@thi.ng/transducers-fsm": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/transducers-fsm",
+    "version": "1.1.6"
+  },
+  "@thi.ng/transducers-hdom": {
+    "dependencies": [
+      "@thi.ng/hdom",
+      "@thi.ng/hiccup",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/transducers-hdom",
+    "version": "2.0.31"
+  },
+  "@thi.ng/transducers-stats": {
+    "dependencies": [
+      "@thi.ng/checks",
+      "@thi.ng/dcons",
+      "@thi.ng/errors",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/transducers-stats",
+    "version": "1.1.6"
+  },
+  "@thi.ng/unionstruct": {
+    "dependencies": [],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/unionstruct",
+    "version": "1.1.3"
+  },
+  "@thi.ng/vector-pools": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/binary",
+      "@thi.ng/checks",
+      "@thi.ng/malloc",
+      "@thi.ng/transducers",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/vector-pools",
+    "version": "1.0.9"
+  },
+  "@thi.ng/vectors": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/binary",
+      "@thi.ng/checks",
+      "@thi.ng/equiv",
+      "@thi.ng/errors",
+      "@thi.ng/math",
+      "@thi.ng/memoize",
+      "@thi.ng/random",
+      "@thi.ng/transducers"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/vectors",
+    "version": "4.0.0"
+  },
+  "@thi.ng/webgl": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/associative",
+      "@thi.ng/binary",
+      "@thi.ng/checks",
+      "@thi.ng/equiv",
+      "@thi.ng/errors",
+      "@thi.ng/matrices",
+      "@thi.ng/pixel",
+      "@thi.ng/shader-ast",
+      "@thi.ng/shader-ast-glsl",
+      "@thi.ng/shader-ast-stdlib",
+      "@thi.ng/transducers",
+      "@thi.ng/vector-pools",
+      "@thi.ng/vectors"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/webgl",
+    "version": "0.2.1"
+  },
+  "@thi.ng/webgl-msdf": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/shader-ast",
+      "@thi.ng/transducers",
+      "@thi.ng/vector-pools",
+      "@thi.ng/vectors",
+      "@thi.ng/webgl"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/webgl-msdf",
+    "version": "0.1.9"
+  },
+  "@thi.ng/webgl-shadertoy": {
+    "dependencies": [
+      "@thi.ng/api",
+      "@thi.ng/shader-ast",
+      "@thi.ng/shader-ast-glsl",
+      "@thi.ng/transducers",
+      "@thi.ng/webgl"
+    ],
+    "repo": "https://github.com/thi-ng/umbrella/tree/master/packages/webgl-shadertoy",
+    "version": "0.1.1"
+  }
+}
